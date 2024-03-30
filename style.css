@@ -22,9 +22,16 @@ body {
 
 /* ----- zde zacni psat vlastni css ----- */
 
+
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;    
 }
 
 
@@ -32,3 +39,141 @@ h1 {
     font-weight: 500;
 }
 
+.zbozi {
+    display: flex;
+    width: 670px;
+    height: 440px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 5px #B1B1B1;
+} 
+
+.vizual {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#06d7c1, #50cc49);
+    border-radius: 10px 0 0 10px;  
+    width: 335px;
+    color: white;  
+}
+
+
+.logo {
+    margin: 30px;
+}
+
+.slogan {
+    margin-block: 0;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.bota {
+    position: relative;
+    right: 75px;
+    top: 10px;
+}
+
+
+.cenovka {
+    align-self: flex-end;
+    text-align: end;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.cena {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.zaruka {
+    font-size: 12px;
+}
+
+/*-----------------------------------------------*/
+
+.detaily {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 10px 10px 0;  
+    background-color: white;
+    flex: 0 1 auto;
+    width: 335px;
+}
+
+
+.nazev {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.produkt {
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.popis {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 2px solid #06d7c1;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+.parametr {
+    margin-left: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;  
+}
+
+.velikosti {
+    margin-right: 60px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.akce {
+    
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    background-color: #F05F45;
+    padding: 15px;
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tlacitko {
+    color: white;
+    text-transform: uppercase;   
+   
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.velikosti {
+    align-items: center;
+}
+
+.vybrana {
+    border-radius: 50%;
+    border: 2px solid #F05F45;
+    color: #F05F45;
+    padding: 5px;
+    
+}
